@@ -1,24 +1,43 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Install RVM (ruby version manager)
 
-Things you may want to cover:
+```sh
+curl -sSL https://get.rvm.io | bash -s stable
+```
 
-* Ruby version
+2. Install Ruby
 
-* System dependencies
+```sh
+rvm install 3.3.4 --with-openssl-dir=`brew --prefix openssl@3` --default
+```
 
-* Configuration
+3. Install Bundler
 
-* Database creation
+```sh
+gem install bundler
+```
 
-* Database initialization
+4. Install dependencies
 
-* How to run the test suite
+```sh
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Install Yarn
 
-* Deployment instructions
+```sh
+npm install yarn
+```
 
-* ...
+6. Install js dependencies
+
+```sh
+yarn install
+```
+
+7. Run the app
+
+```sh
+bin/dev
+```
