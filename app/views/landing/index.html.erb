@@ -26,7 +26,15 @@
   </div>
 </header>
 
-<main class="container mx-auto px-6 md:px-24 text-center mt-20 md:mt-40 relative">
+<main class="mx-auto px-6 md:px-24 text-center mt-20 md:mt-40 relative">
+  <!-- Background images -->
+  <div class="absolute -left-10 -top-40 z-10">
+    <%= image_tag "header-background.svg", alt: "" %>
+  </div>
+  <div class="absolute -right-10 -top-40 rotate-180 z-10">
+    <%= image_tag "header-background.svg", alt: "" %>
+  </div>
+
   <!-- Wallet icon -->
   <div class="flex justify-center mb-6">
     <%= image_tag "wallet-icon.svg", alt: "Wallet Icon" %>
@@ -65,7 +73,150 @@
   </div>
 </main>
 
-<!-- Gradient line - fixed quotes in class attribute -->
+<!-- Gradient line -->
 <div class="flex justify-center mt-12 md:mt-20">
   <%= image_tag "gradient-line.svg", class: "h-[120px] md:h-[200px]", alt: "" %>
 </div>
+<!-- Features section with iPhone in center -->
+<section class="container mx-auto px-6 md:px-24 mt-10 relative">
+  <div class="grid grid-cols-3 gap-8 items-center">
+    <!-- Left side features -->
+    <div class="space-y-28 text-right">
+      <div>
+        <h3 class="text-white text-3xl mb-4">Assets</h3>
+        <p class="text-[#9F9F9F]">Convenient switching between the seed phrases of your multi-assets.</p>
+      </div>
+      <div>
+        <h3 class="text-white text-3xl mb-4">NFT</h3>
+        <p class="text-[#9F9F9F]">Store, view, and manage all your NFTs in one secure place.</p>
+      </div>
+    </div>
+
+    <!-- Center iPhone -->
+    <div class="flex justify-center">
+      <%= image_tag "iphone.png", class: "w-[300px] h-[600px]", alt: "iPhone App Display" %>
+    </div>
+
+    <!-- Right side features -->
+    <div class="space-y-28 text-left">
+      <div>
+        <h3 class="text-white text-3xl mb-4">Earn</h3>
+        <p class="text-[#9F9F9F]">Grow your assets with staking options. Start earning rewards today.</p>
+      </div>
+      <div>
+        <h3 class="text-white text-3xl mb-4">Send</h3>
+        <p class="text-[#9F9F9F]">Transfer your crypto securely and instantly with a few taps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features section -->
+<section class="container mx-auto px-6 md:px-24 mt-32 relative">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Left block -->
+    <div class="bg-[#1E1F22] rounded-2xl p-8 relative">
+      <%= image_tag "arrow.svg", class: "h-8 mb-8", alt: "App Store" %>
+      <div class="flex flex-col justify-start h-full">
+        <h3 class="text-white text-3xl mb-4">Effortless Crypto Transfers</h3>
+        <p class="text-[#9F9F9F]">Move your crypto with ease. Enjoy rewards and see profits right in your wallet.</p>
+      </div>
+    </div>
+
+    <!-- Right block -->
+    <div class="bg-[#1E1F22] rounded-2xl p-8 relative">
+      <%= image_tag "coins.svg", class: "h-8 mb-8", alt: "App Store" %>
+      <div class="flex flex-col justify-start h-full">
+        <h3 class="text-white text-3xl mb-4">Earn from staking your crypto</h3>
+        <p class="text-[#9F9F9F]">Stake your assets and earn steady rewards directly in your wallet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Single Feature section -->
+<section class="container mx-auto px-6 md:px-24 mt-8 relative">
+  <div class="grid grid-cols-1 gap-8">
+    <!-- Full width block -->
+    <div class="bg-[#1E1F22] rounded-2xl p-8 relative">
+      <%= image_tag "arrow.svg", class: "h-8 mb-8", alt: "App Store" %>
+      <div class="flex flex-col justify-start h-full">
+        <h3 class="text-white text-3xl mb-4">Secure and Simple NFT Storages</h3>
+        <p class="text-[#9F9F9F]">Everspace Wallet keeps all your unique NFTs and game assets safe in one place.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Crypto Assets section -->
+<section class="container mx-auto px-6 md:px-24 mt-24 text-center">
+  <h2 class="text-white text-4xl mb-4">Your favorite crypto assets</h2>
+  <p class="text-[#9F9F9F] mb-12">Manage all your top crypto assets in one place</p>
+
+  <div class="flex justify-center items-center gap-4">
+    <%= image_tag "cryptoicons/bitcoin.svg", alt: "Bitcoin", class: "h-12" %>
+    <%= image_tag "cryptoicons/arrow-coin.svg", alt: "Arrow Coin", class: "h-12" %>
+    <%= image_tag "cryptoicons/polygon.svg", alt: "Polygon", class: "h-12" %>
+    <%= image_tag "cryptoicons/eth.svg", alt: "Ethereum", class: "h-12" %>
+    <%= image_tag "cryptoicons/ton.svg", alt: "Ton", class: "h-12" %>
+    <%= image_tag "cryptoicons/bnb.svg", alt: "BNB", class: "h-12" %>
+  </div>
+</section>
+
+<!-- Steps section -->
+<section class="container mx-auto px-6 md:px-24 mt-32 relative">
+  <div class="block md:flex gap-8">
+    <!-- Left side text -->
+    <div class="w-full md:w-2/4 mb-8 md:mb-0">
+      <h2 class="text-white text-4xl mb-12">Get started with Everspace</h2>
+    </div>
+
+    <!-- Timeline line -->
+    <div class="relative w-24 justify-center hidden md:flex">
+      <%= image_tag "gradient-dots-line.svg", class: "h-[387px]", alt: "Timeline" %>
+    </div>
+
+    <!-- Steps content -->
+    <div class="flex-1 flex flex-col gap-14">
+      <div>
+        <h3 class="text-white text-2xl mb-4">Download</h3>
+        <p class="text-[#9F9F9F] max-w-lg">Get the Everspace Wallet app from the App Store or Google Play Store to start your crypto journey.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white text-2xl mb-4">Create</h3>
+        <p class="text-[#9F9F9F] max-w-lg">Set up your wallet in minutes with our simple and secure onboarding process.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white text-2xl mb-4">Manage</h3>
+        <p class="text-[#9F9F9F] max-w-lg">Start managing your crypto assets, earning rewards, and exploring the world of NFTs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="h-20 flex items-center">
+  <div class="container mx-auto px-6 md:px-24 flex items-center justify-between">
+    <!-- Logo on the left -->
+    <div class="flex-shrink-0">
+      <%= link_to root_path do %>
+        <%= image_tag "logo.svg", class: "h-8", alt: "Logo" %>
+      <% end %>
+    </div>
+
+    <!-- Navigation links in center -->
+    <nav class="hidden md:flex items-center space-x-10"> <!-- Hide on mobile -->
+      <%= link_to "Send", "#", class: "text-white hover:text-gray-300" %>
+      <%= link_to "Earn", "#", class: "text-white hover:text-gray-300" %>
+      <%= link_to "NFT", "#", class: "text-white hover:text-gray-300" %>
+    </nav>
+
+    <!-- Copyright on the right -->
+    <div class="text-white">
+      Copyright © 2024
+    </div>
+  </div>
+</footer>
+
