@@ -20,8 +20,6 @@ gem 'cssbundling-rails'
 gem 'jbuilder'
 
 gem "nokogiri", ">= 1.18.9"
-gem 'flexbox', path: '/Users/nerzh/Documents/mydata/code/ruby_projects/gems/flexbox'
-
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[ windows jruby ]
