@@ -42,3 +42,4 @@
 /gems
 /.idea
 /shared
+/config/credentials.yml.enc

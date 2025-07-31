@@ -36,7 +36,13 @@ npm install yarn
 yarn install
 ```
 
-7. Run the app
+7. Install js dependencies
+
+```sh
+yarn add postcss-cli --dev
+```
+
+8. Run the app
 
 ```sh
 bin/dev
