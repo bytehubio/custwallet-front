@@ -1,0 +1,220 @@
+=== puma startup: 2025-07-31 16:29:22 +0000 ===
+[699304] - Worker 0 (PID: 699312) booted in 0.02s, phase: 0
+[699304] - Gracefully shutting down workers...
+[699304] === puma shutdown: 2025-07-31 16:29:28 +0000 ===
+[699304] - Goodbye!
+=== puma startup: 2025-07-31 16:30:08 +0000 ===
+[699333] - Worker 0 (PID: 699877) booted in 0.01s, phase: 0
+I, [2025-07-31T16:31:20.024784 #699877]  INFO -- : [6392ff2f-65cf-44d0-a98a-3bcb87f803c0] Started GET "/" for 46.135.29.39 at 2025-07-31 16:31:20 +0000
+I, [2025-07-31T16:31:20.031934 #699877]  INFO -- : [6392ff2f-65cf-44d0-a98a-3bcb87f803c0] Processing by LandingController#index as HTML
+I, [2025-07-31T16:31:20.061816 #699877]  INFO -- : [6392ff2f-65cf-44d0-a98a-3bcb87f803c0]   Rendered layout layouts/application.html.erb (Duration: 21.5ms | GC: 0.0ms)
+I, [2025-07-31T16:31:20.062301 #699877]  INFO -- : [6392ff2f-65cf-44d0-a98a-3bcb87f803c0] Completed 500 Internal Server Error in 30ms (GC: 0.0ms)
+E, [2025-07-31T16:31:20.069036 #699877] ERROR -- : [6392ff2f-65cf-44d0-a98a-3bcb87f803c0]   
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0] ActionView::Template::Error (The asset "logo.svg" is not present in the asset pipeline.
+):
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0] 
+Causes:
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0] Sprockets::Rails::Helper::AssetNotFound (The asset "logo.svg" is not present in the asset pipeline.
+)
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     3:     <!-- Logo on the left -->
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     4:     <div class="flex-shrink-0">
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     5:       <%= link_to root_path do %>
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     6:         <%= image_tag "logo.svg", class: "h-8", alt: "Logo" %>
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     7:       <% end %>
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     8:     </div>
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]     9: 
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0]   
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0] app/views/landing/index.html.erb:6
+[6392ff2f-65cf-44d0-a98a-3bcb87f803c0] app/views/landing/index.html.erb:5
+I, [2025-07-31T16:31:20.824944 #699877]  INFO -- : [009dce70-7830-4e38-940d-f550867aa51d] Started GET "/favicon.ico" for 46.135.29.39 at 2025-07-31 16:31:20 +0000
+E, [2025-07-31T16:31:20.829387 #699877] ERROR -- : [009dce70-7830-4e38-940d-f550867aa51d]   
+[009dce70-7830-4e38-940d-f550867aa51d] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[009dce70-7830-4e38-940d-f550867aa51d]   
+I, [2025-07-31T16:32:21.814397 #699877]  INFO -- : [b7e7971d-636e-4a42-8134-2da5756af162] Started GET "/" for 149.154.161.235 at 2025-07-31 16:32:21 +0000
+I, [2025-07-31T16:32:21.817977 #699877]  INFO -- : [b7e7971d-636e-4a42-8134-2da5756af162] Processing by LandingController#index as HTML
+I, [2025-07-31T16:32:21.824516 #699877]  INFO -- : [b7e7971d-636e-4a42-8134-2da5756af162]   Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+I, [2025-07-31T16:32:21.825228 #699877]  INFO -- : [b7e7971d-636e-4a42-8134-2da5756af162] Completed 500 Internal Server Error in 6ms (GC: 0.0ms)
+E, [2025-07-31T16:32:21.829143 #699877] ERROR -- : [b7e7971d-636e-4a42-8134-2da5756af162]   
+[b7e7971d-636e-4a42-8134-2da5756af162] ActionView::Template::Error (The asset "logo.svg" is not present in the asset pipeline.
+):
+[b7e7971d-636e-4a42-8134-2da5756af162] 
+Causes:
+[b7e7971d-636e-4a42-8134-2da5756af162] Sprockets::Rails::Helper::AssetNotFound (The asset "logo.svg" is not present in the asset pipeline.
+)
+[b7e7971d-636e-4a42-8134-2da5756af162]     3:     <!-- Logo on the left -->
+[b7e7971d-636e-4a42-8134-2da5756af162]     4:     <div class="flex-shrink-0">
+[b7e7971d-636e-4a42-8134-2da5756af162]     5:       <%= link_to root_path do %>
+[b7e7971d-636e-4a42-8134-2da5756af162]     6:         <%= image_tag "logo.svg", class: "h-8", alt: "Logo" %>
+[b7e7971d-636e-4a42-8134-2da5756af162]     7:       <% end %>
+[b7e7971d-636e-4a42-8134-2da5756af162]     8:     </div>
+[b7e7971d-636e-4a42-8134-2da5756af162]     9: 
+[b7e7971d-636e-4a42-8134-2da5756af162]   
+[b7e7971d-636e-4a42-8134-2da5756af162] app/views/landing/index.html.erb:6
+[b7e7971d-636e-4a42-8134-2da5756af162] app/views/landing/index.html.erb:5
+I, [2025-07-31T16:33:25.737316 #699877]  INFO -- : [5d01c17d-fb88-4a8e-a17d-ece8ade6d134] Started GET "/" for 82.4.198.224 at 2025-07-31 16:33:25 +0000
+I, [2025-07-31T16:33:25.744161 #699877]  INFO -- : [5d01c17d-fb88-4a8e-a17d-ece8ade6d134] Processing by LandingController#index as HTML
+I, [2025-07-31T16:33:25.760174 #699877]  INFO -- : [5d01c17d-fb88-4a8e-a17d-ece8ade6d134]   Rendered layout layouts/application.html.erb (Duration: 5.4ms | GC: 0.0ms)
+I, [2025-07-31T16:33:25.762129 #699877]  INFO -- : [5d01c17d-fb88-4a8e-a17d-ece8ade6d134] Completed 500 Internal Server Error in 17ms (GC: 0.0ms)
+E, [2025-07-31T16:33:25.766669 #699877] ERROR -- : [5d01c17d-fb88-4a8e-a17d-ece8ade6d134]   
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134] ActionView::Template::Error (The asset "logo.svg" is not present in the asset pipeline.
+):
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134] 
+Causes:
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134] Sprockets::Rails::Helper::AssetNotFound (The asset "logo.svg" is not present in the asset pipeline.
+)
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     3:     <!-- Logo on the left -->
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     4:     <div class="flex-shrink-0">
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     5:       <%= link_to root_path do %>
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     6:         <%= image_tag "logo.svg", class: "h-8", alt: "Logo" %>
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     7:       <% end %>
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     8:     </div>
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]     9: 
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134]   
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134] app/views/landing/index.html.erb:6
+[5d01c17d-fb88-4a8e-a17d-ece8ade6d134] app/views/landing/index.html.erb:5
+I, [2025-07-31T16:33:25.901914 #699877]  INFO -- : [8c9b255b-a567-490f-ac92-2eb13fb91b58] Started GET "/favicon.ico" for 82.4.198.224 at 2025-07-31 16:33:25 +0000
+E, [2025-07-31T16:33:25.904558 #699877] ERROR -- : [8c9b255b-a567-490f-ac92-2eb13fb91b58]   
+[8c9b255b-a567-490f-ac92-2eb13fb91b58] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[8c9b255b-a567-490f-ac92-2eb13fb91b58]   
+[699333] === puma shutdown: 2025-07-31 16:44:45 +0000 ===
+[699333] - Goodbye!
+[699333] - Gracefully shutting down workers...
+=== puma startup: 2025-07-31 16:44:54 +0000 ===
+[700184] - Worker 0 (PID: 700728) booted in 0.0s, phase: 0
+[700184] === puma shutdown: 2025-07-31 16:45:48 +0000 ===
+[700184] - Goodbye!
+[700184] - Gracefully shutting down workers...
+=== puma startup: 2025-07-31 16:46:12 +0000 ===
+[700973] - Worker 0 (PID: 701517) booted in 0.01s, phase: 0
+I, [2025-07-31T16:46:30.425615 #701517]  INFO -- : [9575c28c-00a6-4e73-9a32-415f45747481] Started GET "/" for 46.135.29.39 at 2025-07-31 16:46:30 +0000
+I, [2025-07-31T16:46:30.433150 #701517]  INFO -- : [9575c28c-00a6-4e73-9a32-415f45747481] Processing by LandingController#index as HTML
+I, [2025-07-31T16:46:30.479149 #701517]  INFO -- : [9575c28c-00a6-4e73-9a32-415f45747481]   Rendered layout layouts/application.html.erb (Duration: 38.5ms | GC: 0.0ms)
+I, [2025-07-31T16:46:30.479786 #701517]  INFO -- : [9575c28c-00a6-4e73-9a32-415f45747481] Completed 200 OK in 46ms (Views: 41.8ms | GC: 0.0ms)
+I, [2025-07-31T16:49:38.143880 #701517]  INFO -- : [e0306ff9-c496-4ec0-bfe8-2792b37c40e0] Started GET "/" for 5.9.48.211 at 2025-07-31 16:49:38 +0000
+I, [2025-07-31T16:49:38.145393 #701517]  INFO -- : [e0306ff9-c496-4ec0-bfe8-2792b37c40e0] Processing by LandingController#index as HTML
+I, [2025-07-31T16:49:38.182397 #701517]  INFO -- : [e0306ff9-c496-4ec0-bfe8-2792b37c40e0]   Rendered layout layouts/application.html.erb (Duration: 35.5ms | GC: 0.0ms)
+I, [2025-07-31T16:49:38.185828 #701517]  INFO -- : [e0306ff9-c496-4ec0-bfe8-2792b37c40e0] Completed 200 OK in 38ms (Views: 36.8ms | GC: 0.0ms)
+I, [2025-07-31T16:49:39.868962 #701517]  INFO -- : [9ec87b9a-2fad-4491-bd79-e54e8fcf8777] Started GET "/" for 149.102.228.48 at 2025-07-31 16:49:39 +0000
+I, [2025-07-31T16:49:39.870112 #701517]  INFO -- : [9ec87b9a-2fad-4491-bd79-e54e8fcf8777] Processing by LandingController#index as HTML
+I, [2025-07-31T16:49:39.894783 #701517]  INFO -- : [9ec87b9a-2fad-4491-bd79-e54e8fcf8777]   Rendered layout layouts/application.html.erb (Duration: 18.5ms | GC: 0.0ms)
+I, [2025-07-31T16:49:39.900641 #701517]  INFO -- : [9ec87b9a-2fad-4491-bd79-e54e8fcf8777] Completed 200 OK in 28ms (Views: 25.6ms | GC: 0.0ms)
+I, [2025-07-31T16:50:49.205127 #701517]  INFO -- : [8ffbc158-b1b9-45fb-98d9-3df4756ea62a] Started GET "/favicon.ico" for 3.90.139.2 at 2025-07-31 16:50:49 +0000
+E, [2025-07-31T16:50:49.207414 #701517] ERROR -- : [8ffbc158-b1b9-45fb-98d9-3df4756ea62a]   
+[8ffbc158-b1b9-45fb-98d9-3df4756ea62a] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[8ffbc158-b1b9-45fb-98d9-3df4756ea62a]   
+I, [2025-07-31T16:51:03.011425 #701517]  INFO -- : [2bbe2be2-e6c6-4cb1-bf59-bf771a888b00] Started GET "/" for 94.102.49.123 at 2025-07-31 16:51:03 +0000
+I, [2025-07-31T16:51:03.021496 #701517]  INFO -- : [2bbe2be2-e6c6-4cb1-bf59-bf771a888b00] Processing by LandingController#index as HTML
+I, [2025-07-31T16:51:03.027588 #701517]  INFO -- : [2bbe2be2-e6c6-4cb1-bf59-bf771a888b00]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | GC: 0.0ms)
+I, [2025-07-31T16:51:03.027851 #701517]  INFO -- : [2bbe2be2-e6c6-4cb1-bf59-bf771a888b00] Completed 200 OK in 5ms (Views: 4.4ms | GC: 0.0ms)
+I, [2025-07-31T16:51:04.661561 #701517]  INFO -- : [2c13b314-d12c-4571-969a-ca343bd17d54] Started GET "/" for 5.101.64.6 at 2025-07-31 16:51:04 +0000
+I, [2025-07-31T16:51:04.663404 #701517]  INFO -- : [2c13b314-d12c-4571-969a-ca343bd17d54] Processing by LandingController#index as HTML
+I, [2025-07-31T16:51:04.672750 #701517]  INFO -- : [2c13b314-d12c-4571-969a-ca343bd17d54]   Rendered layout layouts/application.html.erb (Duration: 7.5ms | GC: 0.0ms)
+I, [2025-07-31T16:51:04.673381 #701517]  INFO -- : [2c13b314-d12c-4571-969a-ca343bd17d54] Completed 200 OK in 10ms (Views: 9.4ms | GC: 0.0ms)
+I, [2025-07-31T16:51:06.800236 #701517]  INFO -- : [5b094eee-12fa-4321-8eea-52815554606e] Started GET "/" for 94.102.63.27 at 2025-07-31 16:51:06 +0000
+I, [2025-07-31T16:51:06.832432 #701517]  INFO -- : [5b094eee-12fa-4321-8eea-52815554606e] Processing by LandingController#index as HTML
+I, [2025-07-31T16:51:06.846310 #701517]  INFO -- : [5b094eee-12fa-4321-8eea-52815554606e]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | GC: 0.0ms)
+I, [2025-07-31T16:51:06.847712 #701517]  INFO -- : [5b094eee-12fa-4321-8eea-52815554606e] Completed 200 OK in 15ms (Views: 9.8ms | GC: 0.0ms)
+I, [2025-07-31T16:51:27.297018 #701517]  INFO -- : [d39a4094-8fe6-4a9f-ac42-0596c022d525] Started GET "/" for 176.32.195.85 at 2025-07-31 16:51:27 +0000
+I, [2025-07-31T16:51:27.299853 #701517]  INFO -- : [d39a4094-8fe6-4a9f-ac42-0596c022d525] Processing by LandingController#index as HTML
+I, [2025-07-31T16:51:27.307258 #701517]  INFO -- : [d39a4094-8fe6-4a9f-ac42-0596c022d525]   Rendered layout layouts/application.html.erb (Duration: 5.8ms | GC: 0.0ms)
+I, [2025-07-31T16:51:27.312532 #701517]  INFO -- : [d39a4094-8fe6-4a9f-ac42-0596c022d525] Completed 200 OK in 10ms (Views: 8.8ms | GC: 0.0ms)
+I, [2025-07-31T16:52:11.737871 #701517]  INFO -- : [609c6461-16df-436b-add5-f8b1b388b851] Started GET "/" for 149.102.227.85 at 2025-07-31 16:52:11 +0000
+I, [2025-07-31T16:52:11.757468 #701517]  INFO -- : [609c6461-16df-436b-add5-f8b1b388b851] Processing by LandingController#index as HTML
+I, [2025-07-31T16:52:11.771474 #701517]  INFO -- : [609c6461-16df-436b-add5-f8b1b388b851]   Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+I, [2025-07-31T16:52:11.771987 #701517]  INFO -- : [609c6461-16df-436b-add5-f8b1b388b851] Completed 200 OK in 13ms (Views: 12.7ms | GC: 0.0ms)
+I, [2025-07-31T16:52:12.510838 #701517]  INFO -- : [8a8a5e81-436b-4e8f-b92a-48630295cd32] Started GET "/" for 217.138.194.121 at 2025-07-31 16:52:12 +0000
+I, [2025-07-31T16:52:12.517104 #701517]  INFO -- : [8a8a5e81-436b-4e8f-b92a-48630295cd32] Processing by LandingController#index as HTML
+I, [2025-07-31T16:52:12.542157 #701517]  INFO -- : [8a8a5e81-436b-4e8f-b92a-48630295cd32]   Rendered layout layouts/application.html.erb (Duration: 23.4ms | GC: 18.8ms)
+I, [2025-07-31T16:52:12.545101 #701517]  INFO -- : [8a8a5e81-436b-4e8f-b92a-48630295cd32] Completed 200 OK in 28ms (Views: 24.8ms | GC: 18.8ms)
+I, [2025-07-31T16:52:15.499058 #701517]  INFO -- : [462d26a9-9379-413b-9962-aeb4be51b00e] Started GET "/" for 198.44.133.22 at 2025-07-31 16:52:15 +0000
+I, [2025-07-31T16:52:15.505701 #701517]  INFO -- : [462d26a9-9379-413b-9962-aeb4be51b00e] Processing by LandingController#index as HTML
+I, [2025-07-31T16:52:15.517273 #701517]  INFO -- : [462d26a9-9379-413b-9962-aeb4be51b00e]   Rendered layout layouts/application.html.erb (Duration: 7.5ms | GC: 0.0ms)
+I, [2025-07-31T16:52:15.517604 #701517]  INFO -- : [462d26a9-9379-413b-9962-aeb4be51b00e] Completed 200 OK in 12ms (Views: 10.5ms | GC: 0.0ms)
+I, [2025-07-31T16:52:18.476686 #701517]  INFO -- : [51dc4d4f-2a7e-4b12-9492-0963fa222a2d] Started GET "/" for 138.199.18.130 at 2025-07-31 16:52:18 +0000
+I, [2025-07-31T16:52:18.477652 #701517]  INFO -- : [51dc4d4f-2a7e-4b12-9492-0963fa222a2d] Processing by LandingController#index as HTML
+I, [2025-07-31T16:52:18.485937 #701517]  INFO -- : [51dc4d4f-2a7e-4b12-9492-0963fa222a2d]   Rendered layout layouts/application.html.erb (Duration: 7.0ms | GC: 2.6ms)
+I, [2025-07-31T16:52:18.486206 #701517]  INFO -- : [51dc4d4f-2a7e-4b12-9492-0963fa222a2d] Completed 200 OK in 8ms (Views: 7.9ms | GC: 2.6ms)
+I, [2025-07-31T16:54:00.123226 #701517]  INFO -- : [c3539046-f3ad-4ac3-a473-462840323308] Started GET "/favicon.ico" for 138.199.18.130 at 2025-07-31 16:54:00 +0000
+E, [2025-07-31T16:54:00.140588 #701517] ERROR -- : [c3539046-f3ad-4ac3-a473-462840323308]   
+[c3539046-f3ad-4ac3-a473-462840323308] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[c3539046-f3ad-4ac3-a473-462840323308]   
+I, [2025-07-31T16:54:00.331158 #701517]  INFO -- : [4a7f6c1b-2322-41f1-b339-74d3e7e9f17a] Started GET "/" for 104.232.194.93 at 2025-07-31 16:54:00 +0000
+I, [2025-07-31T16:54:00.333132 #701517]  INFO -- : [4a7f6c1b-2322-41f1-b339-74d3e7e9f17a] Processing by LandingController#index as HTML
+I, [2025-07-31T16:54:00.336888 #701517]  INFO -- : [4a7f6c1b-2322-41f1-b339-74d3e7e9f17a]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+I, [2025-07-31T16:54:00.337174 #701517]  INFO -- : [4a7f6c1b-2322-41f1-b339-74d3e7e9f17a] Completed 200 OK in 4ms (Views: 3.4ms | GC: 0.0ms)
+I, [2025-07-31T16:54:07.530144 #701517]  INFO -- : [60c8e1bd-f614-4666-acb3-1364d7da64dd] Started GET "/" for 157.245.69.116 at 2025-07-31 16:54:07 +0000
+I, [2025-07-31T16:54:07.532943 #701517]  INFO -- : [60c8e1bd-f614-4666-acb3-1364d7da64dd] Processing by LandingController#index as HTML
+I, [2025-07-31T16:54:07.535691 #701517]  INFO -- : [60c8e1bd-f614-4666-acb3-1364d7da64dd]   Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+I, [2025-07-31T16:54:07.536633 #701517]  INFO -- : [60c8e1bd-f614-4666-acb3-1364d7da64dd] Completed 200 OK in 4ms (Views: 3.2ms | GC: 0.0ms)
+I, [2025-07-31T16:54:22.991849 #701517]  INFO -- : [9d6e9f73-f192-465f-b131-f8ec20065d15] Started GET "/" for 154.210.103.143 at 2025-07-31 16:54:22 +0000
+I, [2025-07-31T16:54:22.996372 #701517]  INFO -- : [9d6e9f73-f192-465f-b131-f8ec20065d15] Processing by LandingController#index as HTML
+I, [2025-07-31T16:54:23.002089 #701517]  INFO -- : [9d6e9f73-f192-465f-b131-f8ec20065d15]   Rendered layout layouts/application.html.erb (Duration: 4.7ms | GC: 0.0ms)
+I, [2025-07-31T16:54:23.004870 #701517]  INFO -- : [9d6e9f73-f192-465f-b131-f8ec20065d15] Completed 200 OK in 8ms (Views: 7.9ms | GC: 0.0ms)
+I, [2025-07-31T16:55:46.877386 #701517]  INFO -- : [a77a9ab1-eb43-4803-bc81-c23fc2d98127] Started GET "/" for 146.190.185.95 at 2025-07-31 16:55:46 +0000
+I, [2025-07-31T16:55:46.887604 #701517]  INFO -- : [a77a9ab1-eb43-4803-bc81-c23fc2d98127] Processing by LandingController#index as HTML
+I, [2025-07-31T16:55:46.933179 #701517]  INFO -- : [a77a9ab1-eb43-4803-bc81-c23fc2d98127]   Rendered layout layouts/application.html.erb (Duration: 32.1ms | GC: 0.0ms)
+I, [2025-07-31T16:55:46.936985 #701517]  INFO -- : [a77a9ab1-eb43-4803-bc81-c23fc2d98127] Completed 200 OK in 49ms (Views: 43.2ms | GC: 0.0ms)
+I, [2025-07-31T16:55:48.053615 #701517]  INFO -- : [9255e5cc-8e86-4a3e-9c14-23807c12b45d] Started GET "/" for 185.189.161.141 at 2025-07-31 16:55:48 +0000
+I, [2025-07-31T16:55:48.056902 #701517]  INFO -- : [9255e5cc-8e86-4a3e-9c14-23807c12b45d] Processing by LandingController#index as HTML
+I, [2025-07-31T16:55:48.070347 #701517]  INFO -- : [9255e5cc-8e86-4a3e-9c14-23807c12b45d]   Rendered layout layouts/application.html.erb (Duration: 8.1ms | GC: 0.0ms)
+I, [2025-07-31T16:55:48.070529 #701517]  INFO -- : [9255e5cc-8e86-4a3e-9c14-23807c12b45d] Completed 200 OK in 14ms (Views: 9.6ms | GC: 0.0ms)
+I, [2025-07-31T16:55:51.110164 #701517]  INFO -- : [028088dd-2a5c-4c42-8647-be76054a2b0e] Started GET "/" for 38.95.13.140 at 2025-07-31 16:55:51 +0000
+I, [2025-07-31T16:55:51.111239 #701517]  INFO -- : [028088dd-2a5c-4c42-8647-be76054a2b0e] Processing by LandingController#index as HTML
+I, [2025-07-31T16:55:51.115250 #701517]  INFO -- : [028088dd-2a5c-4c42-8647-be76054a2b0e]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+I, [2025-07-31T16:55:51.115629 #701517]  INFO -- : [028088dd-2a5c-4c42-8647-be76054a2b0e] Completed 200 OK in 4ms (Views: 3.8ms | GC: 0.0ms)
+I, [2025-07-31T16:56:00.887293 #701517]  INFO -- : [d1100446-deca-48b0-8c88-b004e55b6a85] Started GET "/favicon.ico" for 146.190.185.95 at 2025-07-31 16:56:00 +0000
+E, [2025-07-31T16:56:00.890176 #701517] ERROR -- : [d1100446-deca-48b0-8c88-b004e55b6a85]   
+[d1100446-deca-48b0-8c88-b004e55b6a85] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[d1100446-deca-48b0-8c88-b004e55b6a85]   
+I, [2025-07-31T16:56:41.484651 #701517]  INFO -- : [c35e4bb6-e98f-401c-b881-0a78bc559acf] Started GET "/" for 142.11.219.102 at 2025-07-31 16:56:41 +0000
+I, [2025-07-31T16:56:41.486525 #701517]  INFO -- : [c35e4bb6-e98f-401c-b881-0a78bc559acf] Processing by LandingController#index as */*
+I, [2025-07-31T16:56:41.491605 #701517]  INFO -- : [c35e4bb6-e98f-401c-b881-0a78bc559acf]   Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+I, [2025-07-31T16:56:41.491820 #701517]  INFO -- : [c35e4bb6-e98f-401c-b881-0a78bc559acf] Completed 200 OK in 5ms (Views: 2.2ms | GC: 0.0ms)
+I, [2025-07-31T16:58:22.162373 #701517]  INFO -- : [b0cf4119-6856-4ee5-8f0a-481e71c195bb] Started GET "/" for 46.135.29.39 at 2025-07-31 16:58:22 +0000
+I, [2025-07-31T16:58:22.165357 #701517]  INFO -- : [b0cf4119-6856-4ee5-8f0a-481e71c195bb] Processing by LandingController#index as HTML
+I, [2025-07-31T16:58:22.188672 #701517]  INFO -- : [b0cf4119-6856-4ee5-8f0a-481e71c195bb]   Rendered layout layouts/application.html.erb (Duration: 21.8ms | GC: 0.0ms)
+I, [2025-07-31T16:58:22.189248 #701517]  INFO -- : [b0cf4119-6856-4ee5-8f0a-481e71c195bb] Completed 200 OK in 24ms (Views: 23.1ms | GC: 0.0ms)
+I, [2025-07-31T17:01:06.031748 #701517]  INFO -- : [2cc8f791-ae1a-41aa-89b3-67b50c58761e] Started GET "/" for 216.170.123.128 at 2025-07-31 17:01:06 +0000
+I, [2025-07-31T17:01:06.033370 #701517]  INFO -- : [2cc8f791-ae1a-41aa-89b3-67b50c58761e] Processing by LandingController#index as HTML
+I, [2025-07-31T17:01:06.061546 #701517]  INFO -- : [2cc8f791-ae1a-41aa-89b3-67b50c58761e]   Rendered layout layouts/application.html.erb (Duration: 26.9ms | GC: 19.3ms)
+I, [2025-07-31T17:01:06.061825 #701517]  INFO -- : [2cc8f791-ae1a-41aa-89b3-67b50c58761e] Completed 200 OK in 28ms (Views: 27.9ms | GC: 19.3ms)
+I, [2025-07-31T17:04:53.331145 #701517]  INFO -- : [f9fdff1b-284f-4caf-b018-1404ab0394fb] Started GET "/" for 84.17.59.81 at 2025-07-31 17:04:53 +0000
+I, [2025-07-31T17:04:53.337061 #701517]  INFO -- : [f9fdff1b-284f-4caf-b018-1404ab0394fb] Processing by LandingController#index as HTML
+I, [2025-07-31T17:04:53.353535 #701517]  INFO -- : [f9fdff1b-284f-4caf-b018-1404ab0394fb]   Rendered layout layouts/application.html.erb (Duration: 15.2ms | GC: 10.3ms)
+I, [2025-07-31T17:04:53.353838 #701517]  INFO -- : [f9fdff1b-284f-4caf-b018-1404ab0394fb] Completed 200 OK in 17ms (Views: 16.2ms | GC: 10.3ms)
+I, [2025-07-31T17:04:54.676064 #701517]  INFO -- : [5ee9b1da-5e20-4358-846c-b3e9a7d12b57] Started GET "/" for 209.38.113.189 at 2025-07-31 17:04:54 +0000
+I, [2025-07-31T17:04:54.677312 #701517]  INFO -- : [5ee9b1da-5e20-4358-846c-b3e9a7d12b57] Processing by LandingController#index as HTML
+I, [2025-07-31T17:04:54.693231 #701517]  INFO -- : [5ee9b1da-5e20-4358-846c-b3e9a7d12b57]   Rendered layout layouts/application.html.erb (Duration: 9.4ms | GC: 5.9ms)
+I, [2025-07-31T17:04:54.693514 #701517]  INFO -- : [5ee9b1da-5e20-4358-846c-b3e9a7d12b57] Completed 200 OK in 16ms (Views: 15.5ms | GC: 11.1ms)
+I, [2025-07-31T17:04:58.008084 #701517]  INFO -- : [750cc3e3-69be-4726-bf11-70b7931c3d04] Started GET "/" for 136.60.151.248 at 2025-07-31 17:04:58 +0000
+I, [2025-07-31T17:04:58.009360 #701517]  INFO -- : [750cc3e3-69be-4726-bf11-70b7931c3d04] Processing by LandingController#index as HTML
+I, [2025-07-31T17:04:58.020430 #701517]  INFO -- : [750cc3e3-69be-4726-bf11-70b7931c3d04]   Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 4.1ms)
+I, [2025-07-31T17:04:58.022393 #701517]  INFO -- : [750cc3e3-69be-4726-bf11-70b7931c3d04] Completed 200 OK in 13ms (Views: 10.8ms | GC: 5.7ms)
+I, [2025-07-31T17:05:01.044741 #701517]  INFO -- : [1486435f-7848-4338-9435-2e430b06440e] Started GET "/" for 209.38.113.189 at 2025-07-31 17:05:01 +0000
+I, [2025-07-31T17:05:01.050264 #701517]  INFO -- : [1486435f-7848-4338-9435-2e430b06440e] Processing by LandingController#index as HTML
+I, [2025-07-31T17:05:01.063048 #701517]  INFO -- : [1486435f-7848-4338-9435-2e430b06440e]   Rendered layout layouts/application.html.erb (Duration: 11.9ms | GC: 8.2ms)
+I, [2025-07-31T17:05:01.063394 #701517]  INFO -- : [1486435f-7848-4338-9435-2e430b06440e] Completed 200 OK in 13ms (Views: 12.6ms | GC: 8.2ms)
+I, [2025-07-31T17:05:04.843687 #701517]  INFO -- : [9ad105f9-42cf-4da1-973b-b227a0abe294] Started GET "/" for 49.184.141.141 at 2025-07-31 17:05:04 +0000
+I, [2025-07-31T17:05:04.848110 #701517]  INFO -- : [9ad105f9-42cf-4da1-973b-b227a0abe294] Processing by LandingController#index as HTML
+I, [2025-07-31T17:05:04.860281 #701517]  INFO -- : [9ad105f9-42cf-4da1-973b-b227a0abe294]   Rendered layout layouts/application.html.erb (Duration: 11.0ms | GC: 6.3ms)
+I, [2025-07-31T17:05:04.860589 #701517]  INFO -- : [9ad105f9-42cf-4da1-973b-b227a0abe294] Completed 200 OK in 12ms (Views: 12.0ms | GC: 6.3ms)
+I, [2025-07-31T17:05:05.385743 #701517]  INFO -- : [82b22c2f-18fe-43c3-8c82-78dee8361a9c] Started GET "/favicon.ico" for 209.38.113.189 at 2025-07-31 17:05:05 +0000
+E, [2025-07-31T17:05:05.389649 #701517] ERROR -- : [82b22c2f-18fe-43c3-8c82-78dee8361a9c]   
+[82b22c2f-18fe-43c3-8c82-78dee8361a9c] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[82b22c2f-18fe-43c3-8c82-78dee8361a9c]   
+I, [2025-07-31T17:27:51.878928 #701517]  INFO -- : [962b6951-3cbd-43a5-8084-9094b6940af4] Started GET "/" for 34.231.122.47 at 2025-07-31 17:27:51 +0000
+I, [2025-07-31T17:27:51.897188 #701517]  INFO -- : [962b6951-3cbd-43a5-8084-9094b6940af4] Processing by LandingController#index as HTML
+I, [2025-07-31T17:27:51.911881 #701517]  INFO -- : [962b6951-3cbd-43a5-8084-9094b6940af4]   Rendered layout layouts/application.html.erb (Duration: 14.0ms | GC: 11.6ms)
+I, [2025-07-31T17:27:51.912359 #701517]  INFO -- : [962b6951-3cbd-43a5-8084-9094b6940af4] Completed 200 OK in 15ms (Views: 14.8ms | GC: 11.6ms)
+I, [2025-07-31T17:27:52.037462 #701517]  INFO -- : [f11a05d4-533f-4bbf-8ec4-fdce9bee11f6] Started GET "/favicon.ico" for 34.231.122.47 at 2025-07-31 17:27:52 +0000
+E, [2025-07-31T17:27:52.059800 #701517] ERROR -- : [f11a05d4-533f-4bbf-8ec4-fdce9bee11f6]   
+[f11a05d4-533f-4bbf-8ec4-fdce9bee11f6] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[f11a05d4-533f-4bbf-8ec4-fdce9bee11f6]   
+I, [2025-07-31T17:27:52.167283 #701517]  INFO -- : [4f8d6b67-7a7e-43ad-8161-93a5a5c88681] Started GET "/favicon.png" for 34.231.122.47 at 2025-07-31 17:27:52 +0000
+E, [2025-07-31T17:27:52.170317 #701517] ERROR -- : [4f8d6b67-7a7e-43ad-8161-93a5a5c88681]   
+[4f8d6b67-7a7e-43ad-8161-93a5a5c88681] ActionController::RoutingError (No route matches [GET] "/favicon.png"):
+[4f8d6b67-7a7e-43ad-8161-93a5a5c88681]   
+I, [2025-07-31T17:45:08.799318 #701517]  INFO -- : [61ce16a3-0f72-4a74-8a15-6ba1cddee767] Started GET "/" for 54.166.164.58 at 2025-07-31 17:45:08 +0000
+I, [2025-07-31T17:45:08.802565 #701517]  INFO -- : [61ce16a3-0f72-4a74-8a15-6ba1cddee767] Processing by LandingController#index as HTML
+I, [2025-07-31T17:45:08.811914 #701517]  INFO -- : [61ce16a3-0f72-4a74-8a15-6ba1cddee767]   Rendered layout layouts/application.html.erb (Duration: 6.9ms | GC: 0.0ms)
+I, [2025-07-31T17:45:08.812332 #701517]  INFO -- : [61ce16a3-0f72-4a74-8a15-6ba1cddee767] Completed 200 OK in 10ms (Views: 8.6ms | GC: 0.0ms)

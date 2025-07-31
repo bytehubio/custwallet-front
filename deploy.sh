@@ -10,6 +10,8 @@ bundle
 
 sudo systemctl stop custwallet.app
 npm install
+npm install -g yarn
+yarn install
 
 DISABLE_SPRING=1 RAILS_ENV=production bin/rake db:create
 DISABLE_SPRING=1 RAILS_ENV=production bin/rake db:migrate

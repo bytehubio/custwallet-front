@@ -32,11 +32,9 @@ environment rails_env
 
 if rails_env == 'production'
   stdout_redirect "#{log_folder}/puma.stdout.log", "#{log_folder}/puma.stderr.log", true
-  daemonize false
   preload_app!
 end
 
 if ENV['RAILS_LOG_TO_STDOUT']
   stdout_redirect false
-  daemonize false
 end
