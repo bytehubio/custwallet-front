@@ -43,3 +43,5 @@
 /.idea
 /shared
 /config/credentials.yml.enc
+package-lock.json
+yarn.lock
