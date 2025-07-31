@@ -1,3 +1,9 @@
+PATH
+  remote: /Users/nerzh/Documents/mydata/code/ruby_projects/gems/flexbox
+  specs:
+    flexbox (1.3.0)
+      rails (>= 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -283,6 +289,7 @@ DEPENDENCIES
   brakeman
   cssbundling-rails
   debug
+  flexbox!
   jbuilder
   jsbundling-rails
   nokogiri (>= 1.18.9)
