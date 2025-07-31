@@ -4,6 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo-header {
+.logo-header, .logo-footer {
     border-radius: 10px;
 }
