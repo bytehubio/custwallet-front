@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo-header {
+    height: 3rem;
+}
+
 .logo-header, .logo-footer {
     border-radius: 10px;
 }
+
