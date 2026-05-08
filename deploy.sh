@@ -13,9 +13,9 @@ npm install
 npm install -g yarn
 yarn install
 
-DISABLE_SPRING=1 RAILS_ENV=production bin/rake db:create
-DISABLE_SPRING=1 RAILS_ENV=production bin/rake db:migrate
-DISABLE_SPRING=1 RAILS_ENV=production bin/rake assets:precompile
+DISABLE_SPRING=1 RAILS_ENV=production bundle exec rails db:create
+DISABLE_SPRING=1 RAILS_ENV=production bundle exec rails db:migrate
+DISABLE_SPRING=1 RAILS_ENV=production bundle exec rails assets:precompile
 pkill -9 -f spring
 
 sudo systemctl start oberton.app
