@@ -14,7 +14,7 @@ pidfile ENV['PIDFILE'] if ENV['PIDFILE']
 # end
 
 if rails_env == 'production'
-  app_name = "custwallet.app"
+  app_name = "oberton.app"
   app_dir = "/home/devton/sites/#{app_name}"
 
   shared_dir = "#{app_dir}/shared"
